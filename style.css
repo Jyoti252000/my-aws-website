@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 40px 60px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+h1 { color: #232f3e; font-size: 2rem; }
+p  { color: #555; font-size: 1rem; }
+
+.badge {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 6px 18px;
+  background: #ff9900;
+  color: white;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
